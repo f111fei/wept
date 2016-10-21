@@ -177,7 +177,6 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
 }
 .tabbar-root {
@@ -514,4 +513,11 @@ xpopup
   -ms-transform: translateY(0);
   -o-transform: translateY(0);
   transform: translateY(0);
+}
+
+/* mobile*/
+@media only screen and (max-width: 767px){
+  .scrollable {
+    overflow-y: scroll;
+  }
 }
